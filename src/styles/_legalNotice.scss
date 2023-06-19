@@ -1,0 +1,20 @@
+.legal-notice {
+  height: 100vh;
+  margin: 10rem;
+  font-size: 2rem;
+  line-height: 1.5;
+
+  .legal-notice-list {
+    margin-bottom: 2rem;
+    list-style-type: square;
+    padding-left: 2rem;
+
+    li {
+      margin-left: 3rem;
+    }
+  }
+
+  .team-name {
+    font-weight: bold;
+  }
+}

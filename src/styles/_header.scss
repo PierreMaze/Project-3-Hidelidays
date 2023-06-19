@@ -1,0 +1,48 @@
+.header {
+  height: 100vh;
+  width: auto;
+  background-image: url("/assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  .titleDiv {
+    margin-top: 4vw;
+    margin-right: 16vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .typed {
+    margin-bottom: 5vh;
+    margin-right: 10vh;
+    color: white;
+    font-family: $secondary-font;
+  }
+  .subTitle,
+  .title {
+    font-family: $primary-font;
+    padding-bottom: 2vh;
+    text-align: center;
+  }
+  .subTitle {
+    color: $primary-background;
+    font-size: 3rem;
+  }
+  .title {
+    font-family: $primary-font;
+    font-size: 6rem;
+  }
+  .button-solutions {
+    border: none;
+    background: $primary-color;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    align-self: center;
+    font-family: $secondary-font;
+  }
+}

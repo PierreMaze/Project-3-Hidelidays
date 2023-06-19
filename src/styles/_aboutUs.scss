@@ -1,0 +1,35 @@
+#about-us {
+  height: 100vh;
+  padding-top: 15rem;
+  padding-bottom: 7.5rem;
+  margin: 5rem 8rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  p {
+    margin: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 2;
+  }
+
+  img {
+    height: 8rem;
+  }
+
+  .quotes-start {
+    display: flex;
+    align-self: flex-start;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .quotes-end {
+    display: flex;
+    align-self: flex-end;
+  }
+}

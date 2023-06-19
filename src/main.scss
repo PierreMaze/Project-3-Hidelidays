@@ -1,0 +1,82 @@
+// variables
+@import "styles/_variables";
+//pages
+@import "./styles/_error.scss";
+@import "./styles/_home.scss";
+// components
+@import "./styles/_aboutUs.scss";
+@import "./styles/_card.scss";
+@import "./styles/_contact.scss";
+@import "./styles/_navBar.scss";
+@import "./styles/_packages.scss";
+@import "./styles/_header.scss";
+@import "./styles/_reviews.scss";
+@import "./styles/_popup.scss";
+@import "./styles/_footer.scss";
+@import "./styles/_legalNotice.scss";
+@import "./styles/_CGU.scss";
+@import "./styles/_hiring.scss";
+@import "./styles/_bot.scss";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter";
+//   font-family: "Lato", sans-serif;
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  body {
+    background-color: $primary-background;
+    color: $primary-color;
+    font-family: $secondary-font;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: $primary-font;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    @media screen and (min-width: 768px) {
+      font-size: 4rem;
+    }
+  }
+
+  h2 {
+    font-size: 2rem;
+    @media screen and (min-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    @media screen and (min-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+}
+h2 {
+  font-size: 2rem;
+  @media screen and (min-width: 768px) {
+    font-size: 3rem;
+  }
+}
+h3 {
+  font-size: 1.5rem;
+  @media screen and (min-width: 768px) {
+    font-size: 2rem;
+  }
+}

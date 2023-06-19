@@ -1,0 +1,28 @@
+.hiring {
+  height: 100vh;
+  padding: 8rem 0;
+  margin: 5rem 10rem;
+  font-size: 1.8rem;
+  line-height: 1.5;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 8rem;
+  }
+
+  h2 {
+    margin: 2rem 0;
+  }
+
+  .job-list,
+  .advantages-list {
+    margin-bottom: 2rem;
+    list-style-type: square;
+    padding-left: 2rem;
+
+    li {
+      margin-bottom: 1rem;
+      margin-left: 3rem;
+    }
+  }
+}

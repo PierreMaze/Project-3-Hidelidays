@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary-color;
+  color: $primary-background;
+  padding: 2rem;
+  width: 100%;
+
+  .footer-list,
+  a,
+  .footer-popup-button {
+    display: flex;
+    font-family: $primary-font;
+    color: $primary-background;
+    font-size: 2rem;
+    padding: 0 2.5rem;
+    cursor: pointer;
+    list-style-type: none;
+  }
+
+  .footer-list,
+  a {
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .footer-popup-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: $primary-background;
+    font-family: $primary-font;
+    font-size: 2rem;
+  }
+}

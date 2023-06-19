@@ -1,0 +1,164 @@
+.container_package {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.packages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+
+    h1 {
+        margin-top: 13rem;
+        margin-bottom: 3rem;
+    }
+
+    img {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+    }
+
+    
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 35vw;
+        height: 90vh;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.03);
+        margin: 10rem 10em;
+        transition: .3s all ease-in-out;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        .container_card_front {
+            .front_picture {
+                border-start-start-radius: 10px;
+                border-start-end-radius: 10px;
+                background-color: rgb(125, 188, 255);
+                height: 350px;
+            }
+
+            .front_text {
+                padding: 2em 2em 0 2em;
+
+                .text_title,
+                .text_subtitle {
+                    margin-bottom: .75em;
+                    font-weight: 900;
+                    text-align: center;
+                }
+
+                .text_description {
+                    line-height: 1.5;
+                    font-size: 1.6em;
+                    margin-bottom: 1em;
+                    text-align: center;
+                    padding: 0 2rem;
+                }
+
+                p {
+                    font-size: 1.5em;
+                }
+
+                .text_or {
+                    margin: 3rem 0 3rem;
+                    font-weight: bold;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+
+            .front_contact {
+                margin: 3rem 22rem 2rem;
+                width: 30%;
+                padding: .75em 1.5em;
+                font-weight: 400;
+                font-size: 2em;
+                color: rgba(0, 0, 0, 0.75);
+                border: solid 1px rgba(0, 0, 0, 0.07);
+                border-radius: 5px;
+                cursor: pointer;
+                transition: .3s all ease-in-out;
+
+                &:hover {
+                    background-color: rgb(125, 188, 255);
+                    color: rgb(231, 231, 231);
+                }
+
+            }
+        }
+
+        .container_card_back {
+            
+            .back_weather {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                padding: 2em 0;
+                border-start-start-radius: 10px;
+                border-start-end-radius: 10px;
+                color: rgb(231, 231, 231);
+                background-color: rgb(125, 188, 255);
+                transition: .3s all ease-in-out;
+
+                &:hover {
+                    background-color: rgb(32, 115, 204);
+                }
+
+                .weather_picture {
+                    height: 60px;
+                    width: auto;
+                }
+
+                .weather_city {
+                    font-weight: 300;
+                }
+
+                .weather_degrees {
+                    font-size: 2em;
+                    font-weight: 700;
+                }
+            }
+
+            .container_text_back {
+                .text_description {
+                    line-height: 1.8;
+                    font-size: 1.6em;
+                    max-width: 60ch;
+                    margin: 2rem auto;
+                    text-align: center;
+                }
+            }
+
+            .back_contact {
+                margin: 1rem 21rem 2rem;
+                width: 35%;
+                padding: .75em 1.5em;
+                font-weight: 400;
+                font-size: 1.5rem;
+                color: rgba(0, 0, 0, 0.75);
+                border: solid 1px rgba(0, 0, 0, 0.07);
+                border-radius: 10px;
+                cursor: pointer;
+                transition: .3s all ease-in-out;
+                background-color: rgb(125, 188, 255);
+
+                &:hover {
+                    background-color: rgb(32, 115, 204);
+                    color: rgb(231, 231, 231);
+                }
+
+            }
+        }
+    }
+}
