@@ -1,10 +1,10 @@
 import "../main.scss";
 import NavBar from "../components/NavBar";
 import Header from "../components/Header";
-import AboutUs from "../components/AboutUs";
+// import AboutUs from "../components/AboutUs";
 import Packages from "../components/Packages";
-import Reviews from "../components/Reviews";
-import Contact from "../components/Contact";
+// import Reviews from "../components/Reviews";
+// import Contact from "../components/Contact";
 import Bot from "../components/Bot";
 
 export default function Home() {
@@ -13,10 +13,10 @@ export default function Home() {
       <NavBar />
       <Bot />
       <Header />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <Packages />
-      <Reviews />
-      <Contact />
+      {/* <Reviews />
+      <Contact /> */}
     </div>
   );
 }

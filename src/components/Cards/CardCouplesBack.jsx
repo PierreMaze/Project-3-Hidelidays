@@ -25,8 +25,35 @@ const CardCouplesBack = () => {
 
   return (
     <div className="container">
+      <div className="container_card_front">
+        <img
+          src="..\public\assets\coupleDispute.png"
+          alt="Couple Dispute"
+          className="front_picture"
+        />
+        <div className="front_text">
+          <h2>PACKAGE ADULTE-AIR</h2>
+          <h3>SEMINAIRE</h3>
+          <p>
+            Vous êtes contacté par mail par votre employeur pour une urgence au
+            travail, vous devez absolument remplacer votre collègue pour la
+            présentation du séminaire. (Mail de confirmation, billets de
+            transports...)
+          </p>
+          <p className="text_or">OU</p>
+          <h3>MEILLEUR AMI D&apos;ENFANCE</h3>
+          <p>
+            Votre meilleur ami d&apos;enfance que votre conjoint/conjointe ne
+            connait pas vous contacte parce qu&apos;il veut absolument vous
+            inviter pour quelques jours de retrouvailles entre amis
+            d&apos;enfances. (Faux profil facebook de votre ami , photoshop
+            d&apos;une photo d&apos;enfance, échanges facebook pour
+            l&apos;évènement avec votre ami.)
+          </p>
+        </div>
+      </div>
       <div className="container_card_back">
-        <div className="back_weather">
+        <div className="weather">
           <img
             src={weather?.current?.condition?.icon}
             alt="weather icon"
@@ -40,17 +67,17 @@ const CardCouplesBack = () => {
           alt="Venise"
           className="back_picture"
         />
-        <div className="container_text_back">
-          <p className="text_description">
-            Plongez dans la romance et la culture de Venise avec nos vacances
-            sur mesure. Découvrez les canaux pittoresques, les rues pavées,
-            les églises historiques, et la gastronomie italienne de renommée
-            mondiale. Nous créons un voyage personnalisé pour vous, en
-            incluant les activités que vous préférez, pour que vous profitiez
-            au maximum de cette ville magique.
-          </p>
+        <p>
+          Plongez dans la romance et la culture de Venise avec nos vacances sur
+          mesure. Découvrez les canaux pittoresques, les rues pavées, les
+          églises historiques, et la gastronomie italienne de renommée mondiale.
+          Nous créons un voyage personnalisé pour vous, en incluant les
+          activités que vous préférez, pour que vous profitiez au maximum de
+          cette ville magique.
+        </p>
+        <div className="button-box">
+          <button>CONTACTEZ-NOUS</button>
         </div>
-        <button className="back_contact">CONTACTEZ-NOUS</button>
       </div>
     </div>
   );
